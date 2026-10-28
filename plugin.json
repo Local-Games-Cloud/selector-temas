@@ -1,14 +1,14 @@
 {
-  "name": "Selector de temas",
-  "type": "theme",
+  "name": "Discord Developer",
+  "type": "code",
   "category": "temas",
   "author": "Local-Games-Cloud",
   "version": "1.0.0",
-  "description": "Cambia el tema de la UI: oscuro, claro o el predeterminado del sistema.",
-  "logo": "logo.png",
-  "variants": [
-    { "id": "dark", "name": "Oscuro", "css": "dark.css" },
-    { "id": "light", "name": "Claro", "css": "light.css" },
-    { "id": "system", "name": "Predeterminado del sistema", "css": "system.css" }
-  ]
+  "description": "Tu perfil de Discord muestra en qué estás: navegando por Local Games o jugando, con cronómetro. Se enciende solo al instalarlo y se controla desde la sección Developer.",
+  "logo": "logo.jpg",
+  "repo": "discord-activity",
+  "branch": "main",
+  "discord": true,
+  "discordClientId": "1564903954419163156",
+  "discordLargeImage": "local_games"
 }
