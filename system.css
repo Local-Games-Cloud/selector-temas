@@ -79,3 +79,142 @@ body {
     color: #ffffff;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  /* Ajustes de contraste para el TEMA CLARO: el launcher base tiene colores blancos
+     fijos (titulos, botones, bordes) pensados para el tema oscuro. Sin esto hay texto
+     blanco sobre fondo blanco. */
+
+  .library-heading h1,
+  .game-title {
+    color: #191e29;
+  }
+
+  .play-button {
+    color: #2a2f3a;
+  }
+
+  .play-button:hover {
+    background: rgba(15, 23, 42, 0.06);
+  }
+
+  .game-count {
+    color: #5c6377;
+    border-color: rgba(15, 23, 42, 0.14);
+    background: rgba(15, 23, 42, 0.045);
+  }
+
+  .add-button {
+    color: #5c6377;
+    border-color: rgba(15, 23, 42, 0.18);
+    background: rgba(15, 23, 42, 0.04);
+  }
+
+  .add-button:hover {
+    color: #131722;
+    background: rgba(15, 23, 42, 0.08);
+  }
+
+  .search-field {
+    border-color: rgba(15, 23, 42, 0.12);
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.07);
+  }
+
+  .search-field:focus-within {
+    border-color: rgba(15, 23, 42, 0.4);
+  }
+
+  .search-field input::placeholder {
+    color: #9aa0af;
+  }
+
+  .search-clear {
+    color: #5c6377;
+    background: rgba(15, 23, 42, 0.06);
+  }
+
+  .search-clear:hover {
+    color: #131722;
+    background: rgba(15, 23, 42, 0.12);
+  }
+
+  .window-button:hover {
+    color: #131722;
+    background: rgba(15, 23, 42, 0.07);
+  }
+
+  .window-button--close:hover {
+    color: #ffffff;
+  }
+
+  .secondary-button {
+    color: #2a2f3a;
+    border-color: rgba(15, 23, 42, 0.18);
+    background: rgba(15, 23, 42, 0.03);
+  }
+
+  .secondary-button:hover {
+    color: #131722;
+    border-color: rgba(15, 23, 42, 0.3);
+    background: rgba(15, 23, 42, 0.08);
+  }
+
+  .card-menu-item:hover,
+  .card-menu-item:focus-visible {
+    color: #131722;
+    background: rgba(15, 23, 42, 0.08);
+  }
+
+  .card-menu-item.danger-item {
+    color: #c93232;
+  }
+
+  /* Modal del formulario sobre fondo blanco */
+  .game-modal,
+  .modal-layer .game-modal {
+    background: #ffffff;
+  }
+
+  .modal-footer {
+    background: rgba(15, 23, 42, 0.02);
+  }
+
+  .field input {
+    border-color: rgba(15, 23, 42, 0.18);
+    background: #f4f6fa;
+    color: #131722;
+  }
+
+  .field input:focus {
+    border-color: rgba(15, 23, 42, 0.42);
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.07);
+  }
+
+  .launch-type-option input:checked + span {
+    border-color: rgba(15, 23, 42, 0.42);
+    background: rgba(15, 23, 42, 0.06);
+  }
+
+  .file-selector {
+    border-style: dashed;
+    border-color: rgba(15, 23, 42, 0.16);
+    background: rgba(15, 23, 42, 0.02);
+  }
+
+  .file-selector:hover,
+  .mods-folder-selector:hover {
+    border-color: rgba(15, 23, 42, 0.3);
+  }
+
+  .file-selector.has-file {
+    border-color: rgba(15, 23, 42, 0.22);
+    background: rgba(15, 23, 42, 0.035);
+  }
+
+  .mini-button:hover {
+    border-color: rgba(15, 23, 42, 0.3);
+    background: rgba(15, 23, 42, 0.06);
+  }
+}
