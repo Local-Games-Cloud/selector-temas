@@ -217,4 +217,29 @@ body {
     border-color: rgba(15, 23, 42, 0.3);
     background: rgba(15, 23, 42, 0.06);
   }
+  /* Menú «···» de las tarjetas: en claro el panel es blanco, así que los textos y
+     separadores brillantes del tema oscuro van insetos. */
+
+  .card-menu {
+    border-color: rgba(15, 23, 42, 0.12);
+    box-shadow: 0 24px 54px rgba(15, 23, 42, 0.2);
+  }
+
+  .card-menu-group + .card-menu-group {
+    border-top-color: rgba(15, 23, 42, 0.09);
+  }
+
+  .card-menu-item {
+    color: #2a2f3a;
+  }
+
+  .card-menu-item.is-danger {
+    color: #c93232;
+  }
+
+  .card-menu-item.is-danger:hover,
+  .card-menu-item.is-danger:focus-visible {
+    color: #a52020;
+    background: rgba(201, 64, 74, 0.12);
+  }
 }
