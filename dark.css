@@ -1,0 +1,46 @@
+/* ============================================================
+   Selector de temas — variante OSCURA
+   Reintroduce la paleta original de Local Games (útil para
+   cancelar overrides de otro tema activado a la vez).
+   ============================================================ */
+
+:root {
+  --bg: #08090c;
+  --bg-deep: #06070a;
+  --surface: #0d0f13;
+  --surface-raised: #12151a;
+  --surface-bright: #171a20;
+  --line: rgba(255, 255, 255, 0.075);
+  --line-strong: rgba(255, 255, 255, 0.12);
+  --text: #f1f2f4;
+  --text-soft: #c5c8d0;
+  --muted: #8a8f9b;
+  --muted-dark: #5f6571;
+  --accent: #ffffff;
+  --accent-bright: #f2f3f5;
+  --accent-ink: #0a0b0d;
+  --danger: #ff7373;
+  --danger-surface: #2a1316;
+}
+
+body {
+  background:
+    radial-gradient(ellipse 65% 52% at 8% -18%, rgba(255, 255, 255, 0.065), transparent 64%),
+    radial-gradient(ellipse 50% 46% at 102% -9%, rgba(82, 116, 255, 0.045), transparent 68%),
+    var(--bg);
+}
+
+.mods-heading h2,
+.mods-empty h3,
+.plugins-empty h3 {
+  color: #f5f6f8;
+}
+
+.card-menu {
+  background: #17191d;
+}
+
+/* vuelve el logo a su color de origen */
+.side-brand img {
+  filter: none;
+}
