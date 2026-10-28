@@ -141,11 +141,15 @@ body {
 
   .window-button:hover {
     color: #131722;
-    background: rgba(15, 23, 42, 0.07);
+    background: rgba(15, 23, 42, 0.12);
   }
 
   .window-button--close:hover {
     color: #ffffff;
+    /* El rojo tiene que volver aquí: el hover gris de arriba llega después y con la
+       misma especificidad que el rojo del tema base, así que sin esto la X se queda
+       gris cuando Windows está en tema claro. */
+    background: #d92d3a;
   }
 
   .secondary-button {
