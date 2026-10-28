@@ -45,7 +45,17 @@ body {
   border-color: var(--line-strong);
 }
 
-/* En el tema claro el logo tiene que leerse sobre fondo blanco: se oscurece */
-.side-brand img {
-  filter: brightness(0.12) saturate(0.4); 
+/* Sidebar con contraste real en claro: hover gris suave y la sección abierta
+   como un chip oscuro, igual que Inicio en el tema oscuro. */
+.side-nav-item:hover {
+  background: rgba(15, 23, 42, 0.06);
+}
+
+.side-nav-item.is-active {
+  background: #131722;
+  color: #ffffff;
+}
+
+.window-button:hover {
+  background: rgba(15, 23, 42, 0.07);
 }

@@ -69,14 +69,13 @@ body {
     box-shadow: 0 24px 54px rgba(15, 23, 42, 0.25);
   }
 
-  /* Fecha con el sistema en claro: el logo se oscurece para que se lea */
-  .side-brand img {
-    filter: brightness(0.12) saturate(0.4);
+  /* Sidebar con contraste real también siguiendo al sistema en claro. */
+  .side-nav-item:hover {
+    background: rgba(15, 23, 42, 0.06);
   }
-}
 
-@media (prefers-color-scheme: dark) {
-  .side-brand img {
-    filter: none;
+  .side-nav-item.is-active {
+    background: #131722;
+    color: #ffffff;
   }
 }

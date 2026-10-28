@@ -39,8 +39,3 @@ body {
 .card-menu {
   background: #17191d;
 }
-
-/* vuelve el logo a su color de origen */
-.side-brand img {
-  filter: none;
-}
