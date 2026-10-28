@@ -1,0 +1,14 @@
+{
+  "name": "Selector de temas",
+  "type": "theme",
+  "category": "temas",
+  "author": "Local-Games-Cloud",
+  "version": "1.0.0",
+  "description": "Cambia el tema de la UI: oscuro, claro o el predeterminado del sistema.",
+  "logo": "logo.png",
+  "variants": [
+    { "id": "dark", "name": "Oscuro", "css": "dark.css" },
+    { "id": "light", "name": "Claro", "css": "light.css" },
+    { "id": "system", "name": "Predeterminado del sistema", "css": "system.css" }
+  ]
+}
